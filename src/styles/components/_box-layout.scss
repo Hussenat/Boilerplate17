@@ -1,0 +1,21 @@
+.box-layout {
+    background: url("/images/bg.jpg");
+    height: 100vh; //vh means view port height
+    width: 100vw; // vw means veiw port weight
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// BEM -> BLOCK ELEMENT MODIFIER
+.box-layout__box {
+    background: fade-out(#ffffff, 0.15);
+    border-radius: 3px;
+    text-align: center;
+    width: 25rem;
+    padding: $l-size $m-size;
+}
+.box-layout__title {
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+}

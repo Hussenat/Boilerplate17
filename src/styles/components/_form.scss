@@ -1,0 +1,7 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    > * { // >* apply these style to the direct decendant or children of form class selector 
+        margin-bottom: $m-size;
+    }
+}
